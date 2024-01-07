@@ -3,5 +3,5 @@ header {
     background-image: url(docs/media/header.jpg) ;
     background-size: cover;
     color: white;
-    border: 0;
+    margin: 0;
 }
