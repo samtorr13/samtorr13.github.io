@@ -3,7 +3,7 @@ body{
     overflow-x: hidden;    
 }
 .container-fluid {
-    margin: 0;
+    margin: 3px;
     padding: 0;
 }
 header {
