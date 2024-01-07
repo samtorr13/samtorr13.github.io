@@ -1,7 +1,9 @@
+*{
+    margin: 0;
+}
 header {
     height: 100vh;
     background-image: url(docs/media/header.jpg) ;
     background-size: cover;
     color: white;
-    margin: 0;
 }
