@@ -1,6 +1,34 @@
-<!DOCTYPE html>
 <html>
-    <body>
-        <h1> Hola mundo </h1>
-    </body>
+<head>
+  <!-- Enlazar los archivos CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- Crear un header con la clase "container-fluid" para que ocupe todo el ancho de la pantalla -->
+  <header class="container-fluid">
+    <!-- Crear una fila con la clase "row" para distribuir el contenido en columnas -->
+    <div class="row">
+      <!-- Crear una columna con la clase "col-4" para que ocupe 4 de las 12 columnas disponibles -->
+      <div class="col-4">
+        <!-- Insertar un logo con la clase "img-fluid" para que se adapte al tamaño de la columna -->
+        <img src="logo.png" class="img-fluid" alt="Logo">
+      </div>
+      <!-- Crear otra columna con la clase "col-8" para que ocupe 8 de las 12 columnas disponibles -->
+      <div class="col-8">
+        <!-- Crear un menú de navegación con la clase "nav" y usar la clase "justify-content-end" para alinear los elementos a la derecha -->
+        <nav class="nav justify-content-end">
+          <!-- Crear los enlaces del menú con la clase "nav-link" -->
+          <a href="#" class="nav-link">Inicio</a>
+          <a href="#" class="nav-link">Servicios</a>
+          <a href="#" class="nav-link">Contacto</a>
+          <!-- Crear un botón con la clase "btn" y usar la clase "btn-outline-primary" para darle un estilo de borde azul -->
+          <button class="btn btn-outline-primary">Registrarse</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Enlazar los archivos JavaScript de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
