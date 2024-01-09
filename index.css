@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background-color: #f5f5f5;    
+}
+.container-fluid {
+    margin: 0px;
+    padding: 0;
+}
+#header {
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  #caroull {
+    position: relative;
+    z-index: 1;
+  }  
+
+header {
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    box-shadow: 0px 10px 8px -1px rgba(0,0,0,0.75);
+}
+
+.carousel-item img{
+    box-shadow: inset 1px 20px 8px -2px rgba(0,0,0,0.63);
+}
+.parallax {
+    /* La imagen utilizada */
+    background-image: url("docs/media/header.jpg") ;
+    /* Altura mínima */
+    min-height: 100vh;
+    /* Crear el efecto de paralaje */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Centrar el contenido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
